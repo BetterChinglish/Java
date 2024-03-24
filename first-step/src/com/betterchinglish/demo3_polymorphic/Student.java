@@ -20,4 +20,8 @@ public class Student extends Person {
         System.out.println("----");
     }
 
+    public void study() {
+        System.out.println(this.getName() + " is studying...");
+    }
+
 }

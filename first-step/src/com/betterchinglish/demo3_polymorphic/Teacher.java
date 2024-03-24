@@ -8,4 +8,8 @@ public class Teacher extends Person {
         System.out.println("age: " + this.getAge());
         System.out.println("----");
     }
+
+    public void teach() {
+        System.out.println(this.getName() + " is teaching...");
+    }
 }

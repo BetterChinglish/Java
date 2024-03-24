@@ -40,6 +40,40 @@ public class Test {
         * 多态的弊端
         *   无法访问实际对象的特有方法
         * */
+
+        // p1.study(); // 报错
+
+        // 解决方法: 强转
+        Student s2 = (Student) p1;
+        s2.study();
+
+        // 不能乱转，比如转为Teacher类型
+        // Teacher t2 = (Teacher) p1;
+        // t2.teach(); // 报错
+
+        System.out.println("----");
+
+        // 可以增加转前校验
+        if(p1 instanceof Student) {
+            Student s3 = (Student) p1;
+            s3.study();
+        }
+        else if(p1 instanceof Teacher) {
+             Teacher t2 = (Teacher) p1;
+             t2.teach();
+        }
+
+        System.out.println("----");
+
+        // jdk 14 快捷写法
+        if (p1 instanceof Student s3) {
+            s3.study();
+            System.out.println("----");
+        }
+
+
+
+
     }
 
     public static void register(Person p) {
