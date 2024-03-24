@@ -1,7 +1,4 @@
-package com.betterchinglish.helloworld;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+package com.betterchinglish.demo0_helloworld;
 
 public class HelloWorld {
     public static void main(String[] args) {
