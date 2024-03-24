@@ -1,4 +1,4 @@
-package com.betterchinglish.demo3_polymorphic;
+package com.betterchinglish.demo03_polymorphic;
 
 public class Student extends Person {
 

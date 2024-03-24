@@ -1,4 +1,4 @@
-package com.betterchinglish.demo0_helloworld;
+package com.betterchinglish.demo00_helloworld;
 
 public class HelloWorld {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.betterchinglish.demo1_Class;
+package com.betterchinglish.demo01_Class;
 
 public class ArrayUtil {
     private ArrayUtil(){

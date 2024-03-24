@@ -1,4 +1,4 @@
-package com.betterchinglish.demo2_extends;
+package com.betterchinglish.demo02_extends;
 
 public class ReadMe {
     /*

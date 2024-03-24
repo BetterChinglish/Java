@@ -1,4 +1,4 @@
-package com.betterchinglish.demo4_final;
+package com.betterchinglish.demo04_final;
 
 import java.util.Scanner;
 
